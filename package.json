@@ -1,0 +1,56 @@
+{
+  "author": {
+    "name": "Denis Seleznev",
+    "email": "hcodes@yandex.ru",
+    "url": "https://github.com/hcodes"
+  },
+  "name": "yandex-speller",
+  "main": "./lib/yandex-speller.js",
+  "description": "Yandex Speller API for Node.js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/hcodes/yandex-speller",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hcodes/yandex-speller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hcodes/yandex-speller/issues"
+  },
+  "keywords": [
+    "typo",
+    "typos",
+    "text",
+    "опечатки",
+    "текст",
+    "yandex",
+    "speller",
+    "Яндекс.Спеллер",
+    "Yandex.Speller"
+  ],
+  "devDependencies": {
+    "chai": "~3.4.0",
+    "istanbul": "~0.4.0",
+    "jscs": "^2.3.4",
+    "jshint": "~2.8.0",
+    "mocha": "~2.3.3",
+    "sinon": "^1.17.1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "npm run-script jshint && npm run-script jscs && npm run-script unit-test-coverage",
+    "jscs": "./node_modules/.bin/jscs .",
+    "jshint": "./node_modules/.bin/jshint .",
+    "unit-test": "./node_modules/.bin/mocha -u bdd -R spec --recursive test",
+    "unit-test-coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -u bdd -R spec --recursive test"
+  },
+  "files": [
+    "lib",
+    "LICENSE.md"
+  ],
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}
