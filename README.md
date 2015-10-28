@@ -14,8 +14,8 @@ yandex-speller
 
 ## API
 
-### [.checkText](./blob/master/lib/yandex-speller.js#L14)(text, callback, settings)
-### [.checkTexts](./blob/master/lib/yandex-speller.js#L39)(texts, callback, settings)
+### [.checkText](./lib/yandex-speller.js#L14)(text, callback, settings)
+### [.checkTexts](./lib/yandex-speller.js#L39)(texts, callback, settings)
 
 ## [Restrictions API Yandex.Speller](http://legal.yandex.ru/speller_api/)
 
