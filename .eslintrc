@@ -1,0 +1,14 @@
+{
+    "env": {
+        "node": true,
+        "mocha": true
+    },
+    "rules": {
+        "semi": [2, "always"],
+        "quotes": [2, "single"]
+    },
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "extends": "eslint:recommended"
+}
