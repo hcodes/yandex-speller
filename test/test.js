@@ -1,3 +1,5 @@
+'use strict';
+
 const yaspeller = require('../lib/yandex-speller');
 const assert = require('chai').assert;
 const fs = require('fs');
