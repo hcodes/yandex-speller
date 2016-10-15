@@ -9,7 +9,7 @@ yandex-speller
 [Yandex.Speller API](https://tech.yandex.ru/speller/doc/dg/concepts/api-overview-docpage/) for Node.js.
 
 ## Installation
-`npm install yaspeller`
+`npm install yandex-speller`
 
 ## API
 
