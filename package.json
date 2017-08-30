@@ -7,7 +7,7 @@
   "name": "yandex-speller",
   "main": "./lib/yandex-speller.js",
   "description": "Yandex Speller API for Node.js",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "MIT",
   "homepage": "https://github.com/hcodes/yandex-speller",
   "repository": {
@@ -29,12 +29,12 @@
     "Yandex.Speller"
   ],
   "devDependencies": {
-    "chai": "3.x",
+    "chai": "4.x",
     "istanbul": "0.4.x",
-    "eslint": "3.x",
+    "eslint": "4.x",
     "jscs": "3.x",
     "mocha": "3.x",
-    "sinon": "1.x"
+    "sinon": "3.x"
   },
   "engines": {
     "node": ">=4"
