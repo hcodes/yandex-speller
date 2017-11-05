@@ -1,9 +1,0 @@
-{
-    "excludeFiles": [
-        ".*",
-        "coverage",
-        "node_modules",
-        "test/json/**"
-    ],
-    "preset": "google"
-}

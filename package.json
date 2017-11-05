@@ -29,19 +29,17 @@
     "Yandex.Speller"
   ],
   "devDependencies": {
-    "chai": "4.x",
+    "chai": "^4.1.2",
+    "eslint": "^4.10.0",
     "istanbul": "0.4.x",
-    "eslint": "4.x",
-    "jscs": "3.x",
-    "mocha": "3.x",
-    "sinon": "3.x"
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.1"
   },
   "engines": {
     "node": ">=4"
   },
   "scripts": {
-    "test": "npm run-script eslint && npm run-script jscs && npm run-script unit-test-coverage",
-    "jscs": "./node_modules/.bin/jscs .",
+    "test": "npm run-script eslint && npm run-script unit-test-coverage",
     "eslint": "./node_modules/.bin/eslint .",
     "unit-test": "./node_modules/.bin/mocha -u bdd -R spec --recursive test",
     "unit-test-coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -u bdd -R spec --recursive test"
