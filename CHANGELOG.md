@@ -1,5 +1,19 @@
 # Changelog
 
+## 3.0.0
+Switch to new Yandex Speller API.
+Removed unsupported API options:
+- IGNORE_UPPERCASE
+- IGNORE_DIGITS
+- FIND_REPEAT_WORDS
+- IGNORE_LATIN:
+- NO_SUGGEST
+- FLAG_LATIN
+- BY_WORDS
+- IGNORE_CAPITALIZATION
+- IGNORE_ROMAN_NUMERALS
+- IGNORE_CAPITALIZATION
+
 ## 2.1.0
 Repeating server request in case of internet connection issues #1 @Avetome
 
