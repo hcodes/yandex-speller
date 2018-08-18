@@ -1,2 +1,5 @@
-E-mail: example@example.com
-Url: http://example.com
+http://example.com
+
+http://exampple.com
+
+http://worlld.com
