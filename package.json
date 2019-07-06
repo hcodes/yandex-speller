@@ -7,7 +7,7 @@
   "name": "yandex-speller",
   "main": "./lib/yandex-speller.js",
   "description": "Yandex Speller API for Node.js",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "license": "MIT",
   "homepage": "https://github.com/hcodes/yandex-speller",
   "repository": {

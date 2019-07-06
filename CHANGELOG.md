@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.0.0
+Revert switch to new Yandex Speller API.
+
 ## 3.0.0
 Switch to new Yandex Speller API.
 Removed unsupported API options:
