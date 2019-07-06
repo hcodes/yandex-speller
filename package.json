@@ -41,10 +41,16 @@
   "scripts": {
     "test": "npm run-script eslint && npm run-script unit-test",
     "eslint": "./node_modules/.bin/eslint .",
-    "unit-test": "nyc mocha -u bdd -R spec --recursive test"
+    "unit-test": "nyc mocha -u bdd -R spec --recursive test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "files": [
     "lib",
     "LICENSE.md"
-  ]
+  ],
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.192.3"
+  }
 }
