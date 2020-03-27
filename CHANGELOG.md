@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.1.0
+Add error codes for export #6.
+
 ## 4.0.0
 Revert switch to new Yandex Speller API.
 
