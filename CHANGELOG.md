@@ -1,7 +1,9 @@
 # Changelog
 
-## 4.1.1
-Fix timeout event.
+## 5.0.0
+- Drop support Node.js < 16.
+- Fix timeout event.
+- Update dev deps in package.json.
 
 ## 4.1.0
 Add error codes for export #6.
