@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.1.1
+Fix timeout event.
+
 ## 4.1.0
 Add error codes for export #6.
 
