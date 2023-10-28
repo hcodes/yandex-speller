@@ -3,7 +3,8 @@ yandex-speller
 [![NPM version](https://img.shields.io/npm/v/yandex-speller.svg)](https://www.npmjs.com/package/yandex-speller)
 [![NPM Downloads](https://img.shields.io/npm/dm/yandex-speller.svg?style=flat)](https://www.npmjs.org/package/yandex-speller)
 [![Coverage Status](https://img.shields.io/coveralls/hcodes/yandex-speller.svg)](https://coveralls.io/r/hcodes/yandex-speller)
-[![Dependency Status](https://img.shields.io/david/hcodes/yandex-speller.svg)](https://david-dm.org/hcodes/yandex-speller)
+[![install size](https://packagephobia.com/badge?p=yandex-speller)](https://packagephobia.com/result?p=yandex-speller)
+
 
 [Yandex.Speller API](https://tech.yandex.ru/speller/doc/dg/concepts/api-overview-docpage/) for Node.js.
 
