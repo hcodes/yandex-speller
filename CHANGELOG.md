@@ -1,5 +1,15 @@
 # Changelog
 
+## 6.0.0
+Switch to new Yandex Speller API.
+Removed unsupported API options:
+- IGNORE_UPPERCASE
+- IGNORE_LATIN
+- NO_SUGGEST
+- FLAG_LATIN
+- BY_WORDS
+- IGNORE_ROMAN_NUMERALS
+
 ## 5.0.0
 - Drop support Node.js < 16.
 - Fix timeout event.
@@ -17,13 +27,12 @@ Removed unsupported API options:
 - IGNORE_UPPERCASE
 - IGNORE_DIGITS
 - FIND_REPEAT_WORDS
-- IGNORE_LATIN:
+- IGNORE_LATIN
 - NO_SUGGEST
 - FLAG_LATIN
 - BY_WORDS
 - IGNORE_CAPITALIZATION
 - IGNORE_ROMAN_NUMERALS
-- IGNORE_CAPITALIZATION
 
 ## 2.1.0
 Repeating server request in case of internet connection issues #1 @Avetome
